@@ -10,7 +10,6 @@
 <link rel='stylesheet' type="text/css"
 	href="resources/home/css/home.css">
 
-
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="resources/jquery-slicknav/js/jquery.slicknav.min.js"></script>
 <script src="resources/home/js/home.js"></script>
@@ -24,45 +23,46 @@
 			<div class='menu-widget'>
 				<ul class='menu-items'>
 					<!-- HOME -->
-					<li><a href="/index.html"><i class="material-icons">home</i>Home</a></li>
+					<li><a class='menu-ref' href="#pages/index.html"><i class="material-icons">home</i>Home</a></li>
 					<!-- APPLICATIONS -->
 					<li><i class="material-icons">apps</i>Applications
 						<ul class='sub-menu-items'>
-							<li><a href='/jquery/rbs'><i class="material-icons">vpn_key</i>Password
+							<li><a class='menu-ref' href='#/jquery/rbs'><i class="material-icons">vpn_key</i>Password
 									Safe Web</a></li>
 						</ul></li>
 					<!-- DROOLS/RHDM -->
 					<li><i class="material-icons">device_hub</i>Drools/RHDM
 						<ul class='sub-menu-items'>
-							<li><a href='/rhdm/brk'><i class="material-icons">account_tree</i>BRMS
+							<li><a class='menu-ref' href='#/rhdm/brk'><i class="material-icons">account_tree</i>BRMS
 									Rules KJar</a></li>
-							<li><a href='/rhdm/bbs'><i class="material-icons">memory</i>BPMN
+							<li><a class='menu-ref' href='#/rhdm/bbs'><i class="material-icons">memory</i>BPMN
 									BRMS Subprocess</a></li>
-							<li><a href='/rhdm/bbl'><i class="material-icons">loop</i>BPMN
+							<li><a class='menu-ref' href='#/rhdm/bbl'><i class="material-icons">loop</i>BPMN
 									BRMS Loop</a></li>
-							<li><a href='/rhdm/bbl'><i class="material-icons">merge_type</i>BRMS
+							<li><a class='menu-ref' href='#/rhdm/bbl'><i class="material-icons">merge_type</i>BRMS
 									Aggregator</a></li>
-							<li><a href='/rhdm/kkd'><i class="material-icons">mediation</i>KieServer
+							<li><a class='menu-ref' href='#/rhdm/kkd'><i class="material-icons">mediation</i>KieServer
 									KJar Deployment</a></li>
-							<li><a href='/rhdm/dtl'><i class="material-icons">table_chart</i>BRMS
+							<li><a class='menu-ref' href='#/rhdm/dtl'><i class="material-icons">table_chart</i>BRMS
 									Decision Tables (Lessons Learned)</a></li>
 						</ul></li>
 					<!-- JQUERY -->
 					<li><i class="material-icons">code</i>JQuery
 						<ul class='sub-menu-items'>
-							<li><a href='/jquery/rbs'><i class="material-icons">wallpaper</i>Responsive
-									Background Slideshow</a></li>
+							<li><a class='menu-ref' href='#pages/jquery/rbs.html'><i
+									class="material-icons">wallpaper</i>Responsive Background
+									Slideshow</a></li>
 						</ul></li>
 					<!-- OPTAPLANNER -->
 					<li><i class="material-icons">next_plan</i>OptaPlanner
 						<ul class='sub-menu-items'>
-							<li><a href='/optaplanner/oo'><i class="material-icons">open_in_full</i>Optical
+							<li><a class='menu-ref' href='#/optaplanner/oo'><i class="material-icons">open_in_full</i>Optical
 									Optimal</a></li>
 						</ul></li>
 					<!-- TOOLS -->
 					<li><i class="material-icons">next_plan</i>Tools
 						<ul class='sub-menu-items'>
-							<li><a href='/tools/md'><i class="material-icons">toc</i>Markdown
+							<li><a class='menu-ref' href='#/tools/md'><i class="material-icons">toc</i>Markdown
 									Table of Contents</a></li>
 						</ul></li>
 				</ul>
@@ -72,7 +72,8 @@
 	<!-- MAIN-WIDGET -->
 	<div class='main-widget'></div>
 	<!-- FOOTER-WIDGET -->
-	<div class='footer-widget'></div>
+	<div class='footer-widget'>
+	</div>
 </body>
 <script type="text/javascript">
 	$(function() {
