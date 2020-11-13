@@ -13,11 +13,13 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="resources/jquery-slicknav/js/jquery.slicknav.min.js"></script>
+<script src="resources/home/js/home.js"></script>
 
 <title>Sunil Samuel - github</title>
 </head>
 <body>
 	<div class='full-widget'>
+		<!-- TOP-HEADER -->
 		<div class='top-header-widget' style='display: none;'>
 			<div class='menu-widget'>
 				<ul class='menu-items'>
@@ -67,18 +69,14 @@
 			</div>
 		</div>
 	</div>
+	<!-- MAIN-WIDGET -->
+	<div class='main-widget'></div>
+	<!-- FOOTER-WIDGET -->
+	<div class='footer-widget'></div>
 </body>
 <script type="text/javascript">
 	$(function() {
-		$(".menu-items")
-				.slicknav(
-						{
-							label : "",
-							closeOnClick : true,
-							removeClasses : true,
-							duration : 500,
-							brand : "Sunil Samuel (<a href='https://https://github.com/sunil-samuel'>https://https://github.com/sunil-samuel</a>)"
-						});
+		home.index();
 	});
 </script>
 </html>
